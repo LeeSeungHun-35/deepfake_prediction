@@ -7,8 +7,6 @@
     align-items: center; 
 }
 
-    
-
 .Home1::after {
     content: '';
     position: absolute;
@@ -19,20 +17,22 @@
     background-image: url('../image/AI_bg.jpg');
     background-size: cover;
     background-position: center;
-    filter: blur(8px);
+    filter: blur(10px);
     z-index: 1;
 }
 
 .Home1-content {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
     z-index: 2;
     color: white;
-    font-size: 24px;
     text-align: center;
     padding: 50px;
-
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
 }
 
 .title {
@@ -40,10 +40,9 @@
     font-weight: bold; 
     margin-bottom: 20px; 
     text-shadow:
-    0 0 10px cyan,
-    0 0 20px cyan,
-    0 0 30px cyan,
-    0 0 40px cyan;
+        0 0 15px cyan,
+        0 0 30px cyan,
+        0 0 45px cyan;
 }
 
 .content {
@@ -51,8 +50,27 @@
     line-height: 1.6; 
     margin: 0; 
     text-shadow:
-    0 0 10px cyan,
-    0 0 20px cyan,
-    0 0 30px cyan,
-    0 0 40px cyan;
+        0 0 10px cyan,
+        0 0 20px cyan;
+}
+
+.Home2 {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white; 
+    padding: 40px; 
+    text-align: center; 
+    transition: background-color 0.3s ease; 
+}
+
+.Home2-content h2 {
+    font-size: 30px; 
+    margin-bottom: 20px; 
+}
+
+.Home2-content p {
+    font-size: 18px; 
+    line-height: 1.6; 
+    margin: 0; 
+    padding: 0 20px; 
+
 }
