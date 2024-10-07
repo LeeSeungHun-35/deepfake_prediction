@@ -11,10 +11,24 @@ const Home = () => {
                 </div>
             </div>
             <div className='Home2'>
-                <div className='pic1' />
-                <div className='text1'>
-                딥페이크 기술은 인공지능을 활용하여 영상이나 이미지를 변형하는 방식. <br />특히, 특정 인물의 얼굴이나 목소리를 조작하여 허위 정보를 퍼뜨리거나 <br />동의 없이 음란물에 사용되는 등의 사례가 증가하고 있습니다. <br />이러한 문제를 해결하기 위해 AI 기반 탐지 기술과 법적 규제가 모색되고 있으며, 사회적 논의가 필요합니다 .
+                <div className='deep'>
+                    <div className='pic1' />
+                    <div className='text1'>
+                        딥페이크 기술은 성착취물 제작에 악용되며, 이는 심각한 인권 침해로 이어지고 있습니다. <br />
+                        특정 인물의 얼굴이나 신체를 조작해 동의 없이 음란물에 사용되는 경우가 증가
+
+                    </div>
                 </div>
+                <div className='news'>
+                    <div className='pic2' />
+                    <div className='text2'>
+                        가짜뉴스는 인터넷과 SNS를 통해 빠르게 확산되며, 사회적 혼란을 야기하고 <br />
+                        잘못된 정보는 공포와 불신을 조성하고, 정치적·사회적 갈등을 증폭시킬 수 있다. <br />
+                         AI 기반 가짜뉴스 탐지 기술과 시민들의 정보 판별 능력이 중요한 시점이다.
+
+                    </div>
+                </div>
+
             </div>
             <div className='Home3'>Home333</div>
         </div>
