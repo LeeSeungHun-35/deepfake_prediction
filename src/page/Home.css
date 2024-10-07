@@ -1,0 +1,58 @@
+.Home1 {
+    height: calc(100vh - 15px);
+    position: relative;
+    overflow: hidden;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+
+    
+
+.Home1::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../image/AI_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    z-index: 1;
+}
+
+.Home1-content {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.title {
+    font-size: 36px; 
+    font-weight: bold; 
+    margin-bottom: 20px; 
+    text-shadow:
+    0 0 10px cyan,
+    0 0 20px cyan,
+    0 0 30px cyan,
+    0 0 40px cyan;
+}
+
+.content {
+    font-size: 18px; 
+    line-height: 1.6; 
+    margin: 0; 
+    text-shadow:
+    0 0 10px cyan,
+    0 0 20px cyan,
+    0 0 30px cyan,
+    0 0 40px cyan;
+}
