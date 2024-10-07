@@ -55,22 +55,38 @@
 }
 
 .Home2 {
+    height: 800px;
     background-color: rgba(0, 0, 0, 0.8);
     color: white; 
     padding: 40px; 
     text-align: center; 
     transition: background-color 0.3s ease; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 
-.Home2-content h2 {
-    font-size: 30px; 
-    margin-bottom: 20px; 
+.Home2-content {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    width: 100%; 
 }
 
-.Home2-content p {
+.pic1 {
+    background-image: url('../image/PH.PNG'); 
+    width: 563px; 
+    height: 212px; 
+    background-size: cover; 
+    background-position: center; 
+    margin-right: 20px; 
+}
+
+
+
+.text1 {
+    width: 50%;
     font-size: 18px; 
     line-height: 1.6; 
-    margin: 0; 
-    padding: 0 20px; 
-
+    padding: 20px; 
 }
