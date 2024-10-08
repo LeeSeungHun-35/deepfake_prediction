@@ -6,7 +6,7 @@ const Home = () => {
         <div>
             <div className='Home1'>
                 <div className='Home1-content'>
-                    <div className='title'>AI기반 딥페이크 판독 서비스</div>
+                    <div className='title'>AI 딥러닝 기반 딥페이크 판독 서비스</div>
                     <div className='content'>딥페이크: 진실을 왜곡하는 새로운 도구</div>
                 </div>
             </div>
